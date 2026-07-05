@@ -23,7 +23,7 @@ Each product is represented as a feature vector, e.g. `[rating, popularity, fres
 
 ```bash
 pip install fastapi uvicorn numpy
-uvicorn main:app --reload
+uvicorn ProductRankingAPI:app --reload
 ```
 
 The API will be available at `http://127.0.0.1:8000`, with interactive Swagger docs at `http://127.0.0.1:8000/docs`.
